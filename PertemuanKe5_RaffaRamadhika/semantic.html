@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic HTML Raffa</title>
+    <style>
+        .indent {
+            text-indent: 40px;
+        }
+
+        .letter {
+            letter-spacing: 3px;
+        }
+
+        .word {
+            word-spacing: 10px;
+        }
+
+        .line {
+            line-height: 1.8;
+        }
+
+        .white {
+            white-space: pre;
+        }
+
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+
+        header, nav, main, section, article, aside, footer {
+            border: 1px solid black;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="letter">
+        <h1>Website Pribadi</h1>
+        <p>Belajar Semantic HTML</p>
+    </header>
+
+    <nav class="word">
+        <a href="#">Home</a> |
+        <a href="#">Tentang</a> |
+        <a href="#">Kontak</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Data Diri</h2>
+
+            <table border="1">
+                <tr>
+                    <th>Nama</th>
+                    <th>Usia</th>
+                </tr>
+                <tr>
+                    <td>Raffa Ramadhika</td>
+                    <td>18</td>
+                </tr>
+            </table>
+
+        </section>
+
+        <section>
+            <h2>Artikel</h2>
+
+            <article class="indent line">
+                <h3>Artikel 1</h3>
+                <p>Saya sedang belajar membuat struktur semantic HTML.</p>
+            </article>
+
+            <article class="indent line">
+                <h3>Artikel 2</h3>
+                <p>Semantic HTML membantu membuat struktur website lebih rapi dan mudah dipahami.</p>
+            </article>
+
+        </section>
+
+    </main>
+
+    <aside class="white">
+        <h3>Info Tambahan</h3>
+        <p>
+            Ini adalah sidebar
+            dengan spasi dan enter
+            yang tetap ditampilkan
+        </p>
+    </aside>
+
+    <footer class="letter">
+        <p>&copy; 2026 Raffa Ramadhika</p>
+    </footer>
+</body>
+</html>

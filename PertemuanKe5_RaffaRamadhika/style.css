@@ -1,0 +1,23 @@
+.btn {
+ background: #3498db;
+ color: white;
+ padding: 10px 24px;
+ border: none;
+ cursor: pointer;
+ transition: background 0.3s, color 2s ease;
+}
+.btn-hover {
+ background: #2980b9;
+}
+@keyframes spin {
+ from { transform: rotate(0); }
+ to { transform: rotate(360); }
+}
+.spinner {
+ width: 32px;
+ height: 32px;
+ border: 4px solid #eee;
+ border-top-color: #3498db;
+ border-radius: 50%;
+ animation: spin 1s linear;
+}
