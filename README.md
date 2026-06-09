@@ -18,3 +18,6 @@ Raffa Ramadhika <br>
 | 10 | [Pertemuan 10](pertemuanKe10_RaffaRamadhika/) | Javascript |
 | 11 | [Pertemuan 11](PertemuanKe11_RaffaRamadhika/) | PHP |
 | 12 | [Pertemuan 12](PertemuanKe12_RaffaRamadhika/) | CRUD PHP |
+<br>
+## Teknologi yang Digunakan
+HTML · CSS · JavaScript · PHP · MySQL · Bootstrap
