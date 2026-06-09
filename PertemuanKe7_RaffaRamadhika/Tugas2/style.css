@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* penting */
+    align-items: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-img img {
+    max-width: 100%;
+}
+
+.btn {
+  background-color: #04AA6D; /* Green background */
+  border: none;
+  color: white; /* White text */
+  padding: 15px 32px; /* Spacing inside */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; /* Hand icon on hover */
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth color change */
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; /* penting */
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.card {
+    flex: 1 1 250px;
+    padding: 30px;
+    background: #f4f4f4;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* penting */
+    padding: 30px;
+    background: #222;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column; /* jadi 1 kolom */
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
