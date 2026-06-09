@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+
+<center>
+    <img src="https://upload.wikimedia.org/wikipedia/id/thumb/9/9f/Emblem_of_Universitas_Gadjah_Mada.svg/250px-Emblem_of_Universitas_Gadjah_Mada.svg.png" width="150" height="150" alt="Banner Pendaftaran">
+</center>
+
+<h2>Form Pendaftaran Mahasiswa</h2>
+
+<form>
+
+    <fieldset>
+        <legend>Data Diri</legend>
+
+        Nama Lengkap:<br>
+        <input type="text" name="nama"><br><br>
+
+        Email:<br>
+        <input type="email" name="email"><br><br>
+
+        Jenis Kelamin:<br>
+        <input type="radio" name="jk"> Laki-laki
+        <input type="radio" name="jk"> Perempuan
+        <br><br>
+
+        Tanggal Lahir:<br>
+        <label for="birthday"></label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+
+        Kota Asal:<br>
+        <input list="kota" name="kota">
+        <datalist id="kota">
+            <option value="Jakarta">
+            <option value="Yogyakarta">
+            <option value="Bandung">
+            <option value="Surabaya">
+        </datalist>
+
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Data Pendidikan</legend>
+
+        Pilih Jurusan:<br>
+        <select>
+            <optgroup label="Teknik">
+                <option>Informatika</option>
+                <option>Biomedis</option>
+            </optgroup>
+
+            <optgroup label="Ekonomi">
+                <option>Manajemen</option>
+                <option>Akuntansi</option>
+            </optgroup>
+
+            <optgroup label="Vokasi">
+                <option>TRPL</option>
+                <option>TRI</option>
+            </optgroup>
+        </select>
+
+        <br><br>
+
+        Upload Foto:<br>
+        <input type="file">
+
+    </fieldset>
+
+    <br>
+
+    <p>Contoh Foto Mahasiswa:</p>
+    <img src="https://i.pinimg.com/originals/27/3a/9e/273a9e0b132453d102a6fb263c5566ce.jpg" width="150" height="200" alt="Contoh Foto">
+
+    <br><br>
+
+    <input type="submit" value="Daftar">
+    <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
